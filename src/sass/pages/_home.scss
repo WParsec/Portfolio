@@ -1,0 +1,13 @@
+.home-wrap {
+    padding: 1rem;
+    margin-top: $section-padding;
+    position: relative;
+    animation-name: welcome;
+    animation-duration: 700ms;
+}
+
+.circle-wrap {
+    position: absolute;
+    top: -120px;
+    left: -100px;
+}

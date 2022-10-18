@@ -1,0 +1,34 @@
+// === ICONS GLOBAL STYLES ===
+
+// <<<------------- Icons Classes ------------>>>
+
+/* See below the icons classes: 
+  - icon-extra-small
+  - icon-small
+*/
+
+.icon {
+  &-extra-small {
+    width: $icon-extra-small;
+    height: $icon-extra-small;
+  }
+  &-small {
+    width: $icon-small;
+    height: $icon-small;
+  }
+
+  &-regular {
+    width: $icon-regular;
+    height: $icon-regular;
+  }
+
+  &-large {
+    width: $icon-large;
+    height: $icon-large;
+  }
+
+  &-comment-icon {
+    width: $comment-icon;
+    height: $comment-icon;
+  }
+}

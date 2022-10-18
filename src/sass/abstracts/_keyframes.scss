@@ -1,0 +1,11 @@
+// Keyframe header text
+@keyframes welcome {
+    from {
+        opacity: 0%;
+        transform: translateX(200px);
+    }
+
+    to {
+        opacity: 100%;
+    }
+}

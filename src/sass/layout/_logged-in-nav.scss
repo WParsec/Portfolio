@@ -1,0 +1,31 @@
+// === LOGGED IN NAVIGATION STYLES ===
+
+// <<<------------- LOGGED IN NAVIGATION ICON STYLES ------------>>>
+nav .content-wrapper {
+  width: 100%;
+  border-bottom: 1px solid $primary-color;
+  gap: $gap-5;
+  display: flex;
+  justify-content: end;
+
+  & img {
+    width: 32px;
+  }
+
+  & img:hover {
+    transform: scale(1.1);
+    transition: $regular-transition;
+  }
+
+  & .rotate {
+    transform: rotate(45deg) translateY(-5px) translateX(-2px);
+  }
+}
+
+@media screen and (max-width: 468px) {
+  nav .content-wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

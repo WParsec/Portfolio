@@ -1,0 +1,77 @@
+// === CARD STYLES ===
+
+// <<<-------------  Card Classes ------------>>>
+
+/* See below the card classes: 
+ - post-card
+ - card
+ - card-small
+ - card-large
+ - card-users
+ - card-no-padding
+ - card-header
+ - card-body
+ - card-footer
+ - card-img-wrapper
+ - card-img
+
+*/
+
+.card {
+  border-radius: $border-standard;
+  background-color: $light-color;
+  padding: $sp3;
+  // height: 100%;
+
+  &-small {
+    border-radius: $border-standard;
+    padding: $sp3;
+
+    @media screen and (max-width: 468px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &-large {
+    border-radius: $border-standard;
+    padding: $sp6;
+
+    @media screen and (max-width: 468px) {
+      padding: $sp3;
+    }
+  }
+
+  &-no-padding {
+    border-radius: $border-standard;
+    background-color: $light-color;
+    // padding: $sp6;
+  }
+
+  &-users {
+    border-radius: $border-standard;
+    background-color: $light-color;
+    padding: $sp3;
+    height: 400px;
+
+    @media screen and (max-width: 468px) {
+      flex-wrap: wrap;
+    }
+
+    // padding: $sp6;
+  }
+
+  &-dashboard-nav {
+    border-radius: $border-standard;
+    // background-color: $dark-color;
+    padding: $sp6;
+    height: 180px;
+
+    @media screen and (max-width: 768px) {
+      height: 100%;
+    }
+  }
+
+  & img {
+    border-radius: $border-standard;
+  }
+}
