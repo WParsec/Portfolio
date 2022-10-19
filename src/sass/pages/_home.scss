@@ -1,13 +1,18 @@
 .home-wrap {
-    padding: 1rem;
-    margin-top: $section-padding;
+    // padding: 1rem;
     position: relative;
     animation-name: welcome;
-    animation-duration: 700ms;
+    animation-duration: 800ms;
+    max-width: 1100px;
+    margin-top: 2.5rem;
 }
 
 .circle-wrap {
     position: absolute;
     top: -120px;
     left: -100px;
+}
+
+#textContainer {
+    filter: drop-shadow(rgb(0, 0, 0) 0px 20px 8px);
 }
