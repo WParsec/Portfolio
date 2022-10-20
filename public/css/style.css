@@ -134,8 +134,8 @@ Typography styling classes
 */
 .display-1__light {
   font-size: 7.2rem;
-  font-family: "Roboto-slab";
-  font-weight: 900;
+  font-family: "Montserrat";
+  font-weight: 800;
   color: white;
 }
 @media screen and (max-width: 700px) {
@@ -220,7 +220,7 @@ h6 {
 }
 .text-code {
   color: white;
-  font-family: "Source Code Pro";
+  font-family: "Montserrat";
   font-size: 1.1rem;
 }
 

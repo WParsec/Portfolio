@@ -30,8 +30,8 @@ Typography styling classes
 //Display headings
 .display-1__light {
   font-size: $display-1-font-size * 1.2;
-  font-family: "Roboto-slab";
-  font-weight: 900;
+  font-family: 'Montserrat';
+  font-weight: 800;
   color: $white-color;
 
   @media screen and (max-width: 700px) {
@@ -133,7 +133,7 @@ h6 {
 
   &-code {
     color: $white-color;
-    font-family: "Source Code Pro";
+    font-family: 'Montserrat';
     font-size: $font-size-base * 1.1 // margin-bottom: $sp4;
   }
 }

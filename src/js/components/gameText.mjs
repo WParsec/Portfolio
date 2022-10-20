@@ -28,6 +28,6 @@ export function writeText() {
         }
     }
     setTimeout(write, 700);
-    setTimeout(writeSecond, 3000);
+    // setTimeout(writeSecond, 3000);
 }
 
