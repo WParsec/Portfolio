@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Source+Code+Pro&display=swap");
 @keyframes welcome {
   0% {
     opacity: 0%;
@@ -41,6 +41,10 @@ ul {
 a {
   text-decoration: none;
   color: #0D0D0D;
+}
+a.logo {
+  font-family: "Source Code Pro";
+  font-size: 1.2rem;
 }
 
 .link.active {
@@ -133,10 +137,9 @@ Typography styling classes
 
 */
 .display-1__light {
-  font-size: 7.2rem;
-  font-family: "Montserrat";
+  font-size: 9rem;
+  font-family: "Big Shoulders Display";
   font-weight: 800;
-  color: white;
 }
 @media screen and (max-width: 700px) {
   .display-1__light.display-1__light {
@@ -180,6 +183,10 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: lighter;
+  background: linear-gradient(90deg, #6aaca4 0%, rgb(137, 147, 187) 23%, rgb(174, 118, 214) 50%, rgb(203, 114, 105) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
 }
 
 h4 {
@@ -217,6 +224,10 @@ h6 {
   font-size: 0.9rem;
   line-height: 1.5rem;
   font-weight: 400;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
 }
 .text-code {
   color: white;
@@ -695,6 +706,25 @@ select {
 
 .modal-body-form {
   width: 100%;
+}
+
+.go-to-top-wrap {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: sticky;
+  top: 90vh;
+  padding-right: 1.2em;
+}
+
+#goToTopButton {
+  font-size: 40px;
+  padding: 1.2rem;
+  border: 0.5px solid #6aaca4;
+  border-radius: 2rem;
+}
+#goToTopButton:hover {
+  cursor: pointer;
 }
 
 .main-nav {

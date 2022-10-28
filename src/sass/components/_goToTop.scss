@@ -1,0 +1,20 @@
+.go-to-top-wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: sticky;
+    top: 90vh;
+    padding-right: 1.2em;
+}
+
+#goToTopButton {
+    font-size: 40px;
+    padding: 1.2rem;
+    border: 0.5px solid $secondary-color;
+    border-radius: $border-large;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
