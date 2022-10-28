@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Facebook_Group" data-name="Facebook Group" transform="translate(-1145 -2793)">
+    <g id="Oval" transform="translate(1145 2793)" opacity="0.397">
+      <path id="Path_106" data-name="Path 106" d="M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" fill="none"/>
+      <path id="Path_107" data-name="Path 107" d="M30,1.25A28.758,28.758,0,0,0,18.81,56.491,28.758,28.758,0,0,0,41.19,3.509,28.569,28.569,0,0,0,30,1.25M30,0A30,30,0,1,1,0,30,30,30,0,0,1,30,0Z" fill="#fff"/>
+    </g>
+    <path id="facebook" d="M2.571,6H0V9H2.571v9H6.429V9h2.34L9,6H6.429V4.751c0-.717.123-1,.717-1H9V0H5.909C3.6,0,2.571,1.188,2.571,3.462Z" transform="translate(1171.154 2814)" fill="#fff"/>
+  </g>
+</svg>
