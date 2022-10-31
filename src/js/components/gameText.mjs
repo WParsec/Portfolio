@@ -2,7 +2,8 @@
 export function writeText() {
     const text = `
     Hello there!
-    I’m Tom, nice to meet me. It seems you found my humble portfolio. Go ahead, snoop around! 
+    I’m Tom, nice to meet me. 
+    It seems you found my humble portfolio. Go ahead, snoop around! 
     `;
 
     const secondText = `Oh, and if you see a banana somewhere, don't touch it.                            
