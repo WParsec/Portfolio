@@ -30,6 +30,8 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 ul {
@@ -153,13 +155,21 @@ Typography styling classes
 }
 
 .display-1__primary {
-  font-size: 6rem;
-  font-weight: 900;
-  color: #0D0D0D;
+  font-size: 8rem;
+  font-weight: lighter;
+  background: linear-gradient(90deg, #6aaca4 0%, rgb(137, 147, 187) 23%, rgb(174, 118, 214) 50%, rgb(203, 114, 105) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
 }
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 800px) {
   .display-1__primary.display-1__primary {
-    font-size: 3.5rem;
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .display-1__primary.display-1__primary {
+    font-size: 4.2rem;
   }
 }
 

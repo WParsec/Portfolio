@@ -47,13 +47,22 @@ Typography styling classes
 }
 
 .display-1__primary {
-  font-size: $display-1-font-size;
-  font-weight: 900;
-  color: $primary-color;
+  font-size: 8rem;
+  font-weight: $font-weight-lighter;
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
 
-  @media screen and (max-width: 468px) {
+  @media screen and (max-width: 800px) {
     &.display-1__primary {
-      font-size: $h1-font-size;
+      font-size: $display-1-font-size;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    &.display-1__primary {
+      font-size: $h1-font-size * 1.2;
     }
   }
 }
