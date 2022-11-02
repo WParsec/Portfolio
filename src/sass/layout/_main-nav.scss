@@ -42,15 +42,6 @@
   position: absolute;
 }
 
-.menu-button-burger::before,
-.menu-button-burger::after {
-    content: '';
-    height: 2px;
-    width: 3rem;
-    background-color: $light-color;
-    position: absolute;
-}
-
 .menu-button-burger::before {
     transform: translateY(-1rem);
     transition: 300ms;
