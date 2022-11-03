@@ -734,6 +734,7 @@ select {
   padding: 1.2rem;
   border: 0.5px solid #6aaca4;
   border-radius: 2rem;
+  position: absolute;
 }
 #goToTopButton:hover {
   cursor: pointer;
@@ -745,7 +746,7 @@ select {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  height: 100px;
+  height: 10vh;
 }
 .main-nav a {
   color: #e6e6e6;
@@ -953,6 +954,11 @@ nav .content-wrapper .rotate {
   filter: drop-shadow(rgb(0, 0, 0) 0px 20px 8px);
 }
 
+.header-section {
+  padding-top: 140px;
+  height: 90vh;
+}
+
 /* See below the grid classes: 
  - d-flex
  - flex-column
@@ -1070,11 +1076,11 @@ nav .content-wrapper .rotate {
 }
 
 .h-100-vh {
-  width: 100vh;
+  height: 100vh;
 }
 
-.h-100-percent {
-  width: 100%;
+.h-100 {
+  height: 100%;
 }
 
 /* NOTE!! Depending on the background class we use in the HTML structure, the paragraph font color will change accordingly ( EX: if the background is a light color, the text will automatically be a dark color. Please see _mixin.scss and _functions.scss in the sass abstract folder for reference to this setup. See below the background classes:
@@ -1093,7 +1099,7 @@ nav .content-wrapper .rotate {
   color: #e6e6e6;
 }
 .bg-secondary {
-  background-color: #6aaca4;
+  background-color: #1c1c1c;
   color: #e6e6e6;
 }
 .bg-white {

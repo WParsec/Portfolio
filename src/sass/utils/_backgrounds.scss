@@ -19,7 +19,7 @@
     @include set-background($primary-color);
   }
   &-secondary {
-    @include set-background($secondary-color);
+    @include set-background($secondary-background);
   }
   &-white {
     @include set-background($white-color);
