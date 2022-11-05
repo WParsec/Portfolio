@@ -40,9 +40,8 @@ a {
   text-decoration: none;
   color: $primary-color;
 
-  &.logo {
-    font-family: 'Source Code Pro';
-    font-size: $font-size-lg;
+  &.logo img {
+    width: 32px;
   }
 }
 
