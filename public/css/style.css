@@ -310,7 +310,6 @@ h6 {
   padding: 1.25rem 2.25rem;
 }
 .btn.btn-primary:hover {
-  transform: scaleX(0.95) scaleY(1.05);
   color: #e6e6e6;
   background: linear-gradient(90deg, rgb(85, 138, 132) 0%, rgb(113, 122, 156) 23%, rgb(120, 80, 149) 50%, rgb(132, 71, 65) 100%);
 }
@@ -957,6 +956,10 @@ nav .content-wrapper .rotate {
 .header-section {
   padding-top: 140px;
   height: 90vh;
+}
+
+.about-me {
+  background-color: #1c1c1c;
 }
 
 /* See below the grid classes: 

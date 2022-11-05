@@ -41,7 +41,7 @@
     padding: $large-btn-padding;
 
     &:hover {
-      transform: scaleX(0.95) scaleY(1.05);
+      // transform: scaleX(0.95) scaleY(1.05);
       color: $light-color;
       background: linear-gradient(90deg, rgb(85, 138, 132) 0%, rgb(113, 122, 156) 23%, rgb(120, 80, 149) 50%, rgb(132, 71, 65) 100%);
     }
